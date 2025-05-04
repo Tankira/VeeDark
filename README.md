@@ -12,9 +12,9 @@ VeeDark is just a dark mode extension for Veestory.
 <br>
 **Bước 2**: Giải nén file mà bạn vừa mới tải về ra đâu đó.
 <br>
-**Bước 3**: Lại [bấm vào đây](chrome://extensions).
+**Bước 3**: Truy cập vào link `chrome://extensions`.
 <br>
-**Bước 4**: Bật `Chế độ dành cho nhà phát triển` hay `Developer Mode`
+**Bước 4**: Bật `Chế độ dành cho nhà phát triển` hay `Developer Mode`.
 <br>
 **Bước 5**: Bấm vào `Tải tiện ích đã giải nén` hay `Load unpacked`, rồi trỏ đên thư mục `VeeDark` mà bạn vừa giải nén ra lúc nãy. (Thư mục `VeeDark` chứ không phải `VeeDark-main` đâu nhé! Thư mục nằm chung với file `LICENSE` ấy.)
 <br>
