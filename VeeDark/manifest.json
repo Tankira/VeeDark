@@ -1,0 +1,15 @@
+{
+	"manifest_version": 3,
+	"name": "VeeDark - Dark mode cho mạng xã hội Veezone",
+	"description": "Chỉ là một extension (tiện ích) dark mode dành cho mạng xã hội Veestory mà thâu.",
+	"author": "Tankrazor",
+	"version": "1.0",
+	"permissions": ["scripting", "activeTab"],
+	"content_scripts": 
+	[
+		{
+			"matches": ["https://vee.traffic2s.click/*"],
+			"css": ["style.css"]
+		}
+	]
+}
