@@ -21,6 +21,8 @@
 .slide-bar,
 .form-select,
 .page-content,
+.page-error,
+.transparent,
 label::after,
 input#email.form-control, input#password.form-control,
 input.form-check-input
@@ -32,10 +34,13 @@ input.form-check-input
 .auth-container,
 .post,
 .nav-item.active,
+.nav-item:hover,
+#veesearch-input,
 .chat-item,
 .chat-action > div,.form-control,
 #post > div,
 .comment-action > div,
+#comments-content,
 .add-list,
 #nofitication-list > div,
 div.white,
@@ -57,12 +62,19 @@ input, .form-control
 	box-shadow: none !important;
 }
 
-h1,h2,h3,h4,h5,h6,a,b,button,input,select,span,strong,svg
+h1,h2,h3,h4,h5,h6,a,b,button,input,select,span,strong,svg,
+#veesearch-input
 {
 	color: var(--veedark-text-high) !important;
 }
 
-p,input::placeholder,label,li::marker
+p,input::placeholder,label,li::marker,
+#loader-page > i
 {
 	color: var(--veedark-text-medium) !important;
+}
+
+.pointer 
+{
+	stroke: var(--veedark-text-high) !important;
 }
